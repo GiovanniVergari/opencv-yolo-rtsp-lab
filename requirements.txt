@@ -1,0 +1,16 @@
+# ==================================================================================================
+# requirements.txt
+# --------------------------------------------------------------------------------------------------
+# Dipendenze minime per ambiente Windows.
+#
+# Nota importante:
+#   Usare opencv-python e NON opencv-python-headless.
+#   La versione headless non include il supporto alle finestre grafiche OpenCV e può generare errori
+#   con cv2.namedWindow(), cv2.imshow() e funzioni simili.
+# ==================================================================================================
+
+opencv-python
+ultralytics
+numpy
+pillow
+requests
